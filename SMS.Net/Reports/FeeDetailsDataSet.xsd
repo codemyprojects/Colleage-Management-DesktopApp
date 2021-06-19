@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="FeeDetailsDataSet" targetNamespace="http://tempuri.org/FeeDetailsDataSet.xsd" xmlns:mstns="http://tempuri.org/FeeDetailsDataSet.xsd" xmlns="http://tempuri.org/FeeDetailsDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="SMSConnectionStringModified" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="SMSConnectionStringModified (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.SMS.Net.Properties.Settings.GlobalReference.Default.SMSConnectionStringModified" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vFeeDetailTableAdapter" GeneratorDataComponentClassName="vFeeDetailTableAdapter" Name="vFeeDetail" UserDataComponentName="vFeeDetailTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="SMSConnectionStringModified (Settings)" DbObjectName="SMS.dbo.vFeeDetail" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        vFeeDetail.*
+FROM            vFeeDetail</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="FeeStatus" DataSetColumn="FeeStatus" />
+              <Mapping SourceColumn="FeeName" DataSetColumn="FeeName" />
+              <Mapping SourceColumn="FeeAmount" DataSetColumn="FeeAmount" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="FeeDetailsDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="FeeDetailsDataSet" msprop:Generator_UserDSName="FeeDetailsDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="vFeeDetail" msprop:Generator_TableClassName="vFeeDetailDataTable" msprop:Generator_TableVarName="tablevFeeDetail" msprop:Generator_TablePropName="vFeeDetail" msprop:Generator_RowDeletingName="vFeeDetailRowDeleting" msprop:Generator_RowChangingName="vFeeDetailRowChanging" msprop:Generator_RowEvHandlerName="vFeeDetailRowChangeEventHandler" msprop:Generator_RowDeletedName="vFeeDetailRowDeleted" msprop:Generator_UserTableName="vFeeDetail" msprop:Generator_RowChangedName="vFeeDetailRowChanged" msprop:Generator_RowEvArgName="vFeeDetailRowChangeEvent" msprop:Generator_RowClassName="vFeeDetailRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FeeStatus" msprop:Generator_ColumnVarNameInTable="columnFeeStatus" msprop:Generator_ColumnPropNameInRow="FeeStatus" msprop:Generator_ColumnPropNameInTable="FeeStatusColumn" msprop:Generator_UserColumnName="FeeStatus" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FeeName" msprop:Generator_ColumnVarNameInTable="columnFeeName" msprop:Generator_ColumnPropNameInRow="FeeName" msprop:Generator_ColumnPropNameInTable="FeeNameColumn" msprop:Generator_UserColumnName="FeeName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FeeAmount" msprop:Generator_ColumnVarNameInTable="columnFeeAmount" msprop:Generator_ColumnPropNameInRow="FeeAmount" msprop:Generator_ColumnPropNameInTable="FeeAmountColumn" msprop:Generator_UserColumnName="FeeAmount" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

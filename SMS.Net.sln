@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMS.Net", "SMS.Net\SMS.Net.csproj", "{398BA555-F25A-45FA-88B9-D71492B7E480}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{6D91010E-5188-48BA-B5AC-003324CF82AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMS.Net.DataBaseLayer", "SMS.Net.DataBaseLayer\SMS.Net.DataBaseLayer.csproj", "{8D9D51D0-9695-431E-AE37-BA0448EBDA47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logic", "Logic", "{44572C62-E837-45B9-B33D-8C78060D733F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMS.Net.BusinessLayer", "SMS.Net.BusinessLayer\SMS.Net.BusinessLayer.csproj", "{1FBF43DE-640F-4A11-91E6-C77372D4B3EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Objects", "Objects", "{A7C688F0-B80F-4FB4-9E4E-62B1D157F266}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMS.Net.Common", "SMS.Net.Common\SMS.Net.Common.csproj", "{CC0A60DD-DCEB-4092-AA78-AA19A0F46DDB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SecureApp", "SecureApp", "{45729906-1F95-488A-8B0E-B716CB26F1A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureApp", "..\SecureApp\SecureApp\SecureApp.csproj", "{567DAB27-241C-4E6C-B2FA-66D9D64081FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{398BA555-F25A-45FA-88B9-D71492B7E480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{398BA555-F25A-45FA-88B9-D71492B7E480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{398BA555-F25A-45FA-88B9-D71492B7E480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{398BA555-F25A-45FA-88B9-D71492B7E480}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D9D51D0-9695-431E-AE37-BA0448EBDA47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D9D51D0-9695-431E-AE37-BA0448EBDA47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D9D51D0-9695-431E-AE37-BA0448EBDA47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D9D51D0-9695-431E-AE37-BA0448EBDA47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FBF43DE-640F-4A11-91E6-C77372D4B3EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FBF43DE-640F-4A11-91E6-C77372D4B3EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FBF43DE-640F-4A11-91E6-C77372D4B3EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FBF43DE-640F-4A11-91E6-C77372D4B3EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC0A60DD-DCEB-4092-AA78-AA19A0F46DDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC0A60DD-DCEB-4092-AA78-AA19A0F46DDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC0A60DD-DCEB-4092-AA78-AA19A0F46DDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC0A60DD-DCEB-4092-AA78-AA19A0F46DDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{567DAB27-241C-4E6C-B2FA-66D9D64081FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{567DAB27-241C-4E6C-B2FA-66D9D64081FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{567DAB27-241C-4E6C-B2FA-66D9D64081FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{567DAB27-241C-4E6C-B2FA-66D9D64081FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8D9D51D0-9695-431E-AE37-BA0448EBDA47} = {6D91010E-5188-48BA-B5AC-003324CF82AA}
+		{1FBF43DE-640F-4A11-91E6-C77372D4B3EC} = {44572C62-E837-45B9-B33D-8C78060D733F}
+		{CC0A60DD-DCEB-4092-AA78-AA19A0F46DDB} = {A7C688F0-B80F-4FB4-9E4E-62B1D157F266}
+		{567DAB27-241C-4E6C-B2FA-66D9D64081FB} = {45729906-1F95-488A-8B0E-B716CB26F1A1}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,4 @@
+E:\SMS\SMS.Net\SMS.Net.Common\bin\Release\SMS.Net.Common.dll
+E:\SMS\SMS.Net\SMS.Net.Common\bin\Release\SMS.Net.Common.pdb
+E:\SMS\SMS.Net\SMS.Net.Common\obj\Release\SMS.Net.Common.dll
+E:\SMS\SMS.Net\SMS.Net.Common\obj\Release\SMS.Net.Common.pdb

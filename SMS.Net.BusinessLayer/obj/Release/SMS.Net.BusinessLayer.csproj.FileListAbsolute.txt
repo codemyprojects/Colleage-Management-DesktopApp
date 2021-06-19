@@ -1,0 +1,9 @@
+E:\SMS\SMS.Net\SMS.Net.BusinessLayer\bin\Release\SMS.Net.BusinessLayer.dll
+E:\SMS\SMS.Net\SMS.Net.BusinessLayer\bin\Release\SMS.Net.BusinessLayer.pdb
+E:\SMS\SMS.Net\SMS.Net.BusinessLayer\bin\Release\SMS.Net.Common.dll
+E:\SMS\SMS.Net\SMS.Net.BusinessLayer\bin\Release\SMS.Net.DataBaseLayer.dll
+E:\SMS\SMS.Net\SMS.Net.BusinessLayer\bin\Release\SMS.Net.Common.pdb
+E:\SMS\SMS.Net\SMS.Net.BusinessLayer\bin\Release\SMS.Net.DataBaseLayer.pdb
+E:\SMS\SMS.Net\SMS.Net.BusinessLayer\obj\Release\SMS.Net.BusinessLayer.csprojResolveAssemblyReference.cache
+E:\SMS\SMS.Net\SMS.Net.BusinessLayer\obj\Release\SMS.Net.BusinessLayer.dll
+E:\SMS\SMS.Net\SMS.Net.BusinessLayer\obj\Release\SMS.Net.BusinessLayer.pdb

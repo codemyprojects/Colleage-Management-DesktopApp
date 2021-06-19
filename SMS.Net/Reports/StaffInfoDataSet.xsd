@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="StaffInfoDataSet" targetNamespace="http://tempuri.org/StaffInfoDataSet.xsd" xmlns:mstns="http://tempuri.org/StaffInfoDataSet.xsd" xmlns="http://tempuri.org/StaffInfoDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="SMSConnectionStringModified" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="SMSConnectionStringModified (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.SMS.Net.Properties.Settings.GlobalReference.Default.SMSConnectionStringModified" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vStaffsInfoTableAdapter" GeneratorDataComponentClassName="vStaffsInfoTableAdapter" Name="vStaffsInfo" UserDataComponentName="vStaffsInfoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="SMSConnectionStringModified (Settings)" DbObjectName="SMS.dbo.vStaffsInfo" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        vStaffsInfo.*
+FROM            vStaffsInfo</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="StaffName" DataSetColumn="StaffName" />
+              <Mapping SourceColumn="StaffEmail" DataSetColumn="StaffEmail" />
+              <Mapping SourceColumn="StaffType" DataSetColumn="StaffType" />
+              <Mapping SourceColumn="StaffEnrollMentDate" DataSetColumn="StaffEnrollMentDate" />
+              <Mapping SourceColumn="DepartmentName" DataSetColumn="DepartmentName" />
+              <Mapping SourceColumn="StaffContact" DataSetColumn="StaffContact" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="StaffInfoDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="StaffInfoDataSet" msprop:Generator_UserDSName="StaffInfoDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="vStaffsInfo" msprop:Generator_TableClassName="vStaffsInfoDataTable" msprop:Generator_TableVarName="tablevStaffsInfo" msprop:Generator_TablePropName="vStaffsInfo" msprop:Generator_RowDeletingName="vStaffsInfoRowDeleting" msprop:Generator_RowChangingName="vStaffsInfoRowChanging" msprop:Generator_RowEvHandlerName="vStaffsInfoRowChangeEventHandler" msprop:Generator_RowDeletedName="vStaffsInfoRowDeleted" msprop:Generator_UserTableName="vStaffsInfo" msprop:Generator_RowChangedName="vStaffsInfoRowChanged" msprop:Generator_RowEvArgName="vStaffsInfoRowChangeEvent" msprop:Generator_RowClassName="vStaffsInfoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StaffName" msprop:Generator_ColumnVarNameInTable="columnStaffName" msprop:Generator_ColumnPropNameInRow="StaffName" msprop:Generator_ColumnPropNameInTable="StaffNameColumn" msprop:Generator_UserColumnName="StaffName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="StaffEmail" msprop:Generator_ColumnVarNameInTable="columnStaffEmail" msprop:Generator_ColumnPropNameInRow="StaffEmail" msprop:Generator_ColumnPropNameInTable="StaffEmailColumn" msprop:Generator_UserColumnName="StaffEmail" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="StaffType" msprop:Generator_ColumnVarNameInTable="columnStaffType" msprop:Generator_ColumnPropNameInRow="StaffType" msprop:Generator_ColumnPropNameInTable="StaffTypeColumn" msprop:Generator_UserColumnName="StaffType" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="StaffEnrollMentDate" msprop:Generator_ColumnVarNameInTable="columnStaffEnrollMentDate" msprop:Generator_ColumnPropNameInRow="StaffEnrollMentDate" msprop:Generator_ColumnPropNameInTable="StaffEnrollMentDateColumn" msprop:Generator_UserColumnName="StaffEnrollMentDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DepartmentName" msprop:Generator_ColumnVarNameInTable="columnDepartmentName" msprop:Generator_ColumnPropNameInRow="DepartmentName" msprop:Generator_ColumnPropNameInTable="DepartmentNameColumn" msprop:Generator_UserColumnName="DepartmentName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="StaffContact" msprop:Generator_ColumnVarNameInTable="columnStaffContact" msprop:Generator_ColumnPropNameInRow="StaffContact" msprop:Generator_ColumnPropNameInTable="StaffContactColumn" msprop:Generator_UserColumnName="StaffContact" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

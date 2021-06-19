@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="AcademicYearWiseSubjectsDataSet" targetNamespace="http://tempuri.org/AcademicYearWiseSubjectsDataSet.xsd" xmlns:mstns="http://tempuri.org/AcademicYearWiseSubjectsDataSet.xsd" xmlns="http://tempuri.org/AcademicYearWiseSubjectsDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="SMSConnectionStringModified" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="SMSConnectionStringModified (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.SMS.Net.Properties.Settings.GlobalReference.Default.SMSConnectionStringModified" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="AcademicYearwiseSubjectsTableAdapter" GeneratorDataComponentClassName="AcademicYearwiseSubjectsTableAdapter" Name="AcademicYearwiseSubjects" UserDataComponentName="AcademicYearwiseSubjectsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="SMSConnectionStringModified (Settings)" DbObjectName="SMS.dbo.AcademicYearwiseSubjects" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        AcademicYearwiseSubjects.*
+FROM            AcademicYearwiseSubjects</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="AcademicYearId" DataSetColumn="AcademicYearId" />
+              <Mapping SourceColumn="AcademicYear" DataSetColumn="AcademicYear" />
+              <Mapping SourceColumn="ClassId" DataSetColumn="ClassId" />
+              <Mapping SourceColumn="SubjectId" DataSetColumn="SubjectId" />
+              <Mapping SourceColumn="SubjectName" DataSetColumn="SubjectName" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="AcademicYearWiseSubjectsDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="AcademicYearWiseSubjectsDataSet" msprop:Generator_UserDSName="AcademicYearWiseSubjectsDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AcademicYearwiseSubjects" msprop:Generator_TableClassName="AcademicYearwiseSubjectsDataTable" msprop:Generator_TableVarName="tableAcademicYearwiseSubjects" msprop:Generator_TablePropName="AcademicYearwiseSubjects" msprop:Generator_RowDeletingName="AcademicYearwiseSubjectsRowDeleting" msprop:Generator_RowChangingName="AcademicYearwiseSubjectsRowChanging" msprop:Generator_RowEvHandlerName="AcademicYearwiseSubjectsRowChangeEventHandler" msprop:Generator_RowDeletedName="AcademicYearwiseSubjectsRowDeleted" msprop:Generator_UserTableName="AcademicYearwiseSubjects" msprop:Generator_RowChangedName="AcademicYearwiseSubjectsRowChanged" msprop:Generator_RowEvArgName="AcademicYearwiseSubjectsRowChangeEvent" msprop:Generator_RowClassName="AcademicYearwiseSubjectsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AcademicYearId" msprop:Generator_ColumnVarNameInTable="columnAcademicYearId" msprop:Generator_ColumnPropNameInRow="AcademicYearId" msprop:Generator_ColumnPropNameInTable="AcademicYearIdColumn" msprop:Generator_UserColumnName="AcademicYearId" type="xs:long" />
+              <xs:element name="AcademicYear" msprop:Generator_ColumnVarNameInTable="columnAcademicYear" msprop:Generator_ColumnPropNameInRow="AcademicYear" msprop:Generator_ColumnPropNameInTable="AcademicYearColumn" msprop:Generator_UserColumnName="AcademicYear" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ClassId" msprop:Generator_ColumnVarNameInTable="columnClassId" msprop:Generator_ColumnPropNameInRow="ClassId" msprop:Generator_ColumnPropNameInTable="ClassIdColumn" msprop:Generator_UserColumnName="ClassId" type="xs:long" minOccurs="0" />
+              <xs:element name="SubjectId" msprop:Generator_ColumnVarNameInTable="columnSubjectId" msprop:Generator_ColumnPropNameInRow="SubjectId" msprop:Generator_ColumnPropNameInTable="SubjectIdColumn" msprop:Generator_UserColumnName="SubjectId" type="xs:long" />
+              <xs:element name="SubjectName" msprop:Generator_ColumnVarNameInTable="columnSubjectName" msprop:Generator_ColumnPropNameInRow="SubjectName" msprop:Generator_ColumnPropNameInTable="SubjectNameColumn" msprop:Generator_UserColumnName="SubjectName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
