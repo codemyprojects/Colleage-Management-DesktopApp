@@ -20,10 +20,8 @@ SQL Server Management Studio 2008
  Microsoft Visual Studio 2013
 
 <h3>Screenshots</h3>
-![alt text](https://github.com/[indra-codemyprojects]/[SchoolManagementSystem]/[branch]/image.jpg?raw=true)
-![login](https://user-images.githubusercontent.com/32549365/122665906-1f6ec080-d1e5-11eb-9489-f290010281db.jpg)
-![masterpage](https://user-images.githubusercontent.com/32549365/122665909-24cc0b00-d1e5-11eb-9842-6a3a353d00ff.jpg)
-![companyifno](https://user-images.githubusercontent.com/32549365/122665914-2b5a8280-d1e5-11eb-887e-428aa21000c7.jpg)
-![studentrecord](https://user-images.githubusercontent.com/32549365/122665919-331a2700-d1e5-11eb-9a03-023ddcc8f6b1.jpg)
-![usercontrol](https://user-images.githubusercontent.com/32549365/122665924-38777180-d1e5-11eb-8658-366fdc8ccb03.jpg)
-![databasedesign](https://user-images.githubusercontent.com/32549365/122665926-3c0af880-d1e5-11eb-9334-d04c8d6e83f6.jpg)
+![user](https://user-images.githubusercontent.com/32549365/122712074-4a691b00-d29e-11eb-86dc-f1f57f309c6a.jpg)
+![masterpage](https://user-images.githubusercontent.com/32549365/122712085-4f2dcf00-d29e-11eb-9569-f0bc15b22b81.jpg)
+![student](https://user-images.githubusercontent.com/32549365/122712091-52c15600-d29e-11eb-8f99-9c590fc522e4.jpg)
+![usersetting](https://user-images.githubusercontent.com/32549365/122712098-548b1980-d29e-11eb-8c93-0b15b19ee34f.jpg)
+![database](https://user-images.githubusercontent.com/32549365/122712102-56ed7380-d29e-11eb-8257-bc2d2950d2f9.jpg)
