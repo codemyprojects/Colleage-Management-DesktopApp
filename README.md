@@ -20,6 +20,7 @@ SQL Server Management Studio 2008
  Microsoft Visual Studio 2013
 
 <h3>Screenshots</h3>
+![](login.jpg)
 <p align="center">
   <img src="https://github.com/indra-codemyprojects/SchoolManagementSystem/login.jpg" width="350" title="hover text">
   <img src="https://github.com/indra-codemyprojects/SchoolManagementSystem/masterpage.jpg" width="350" alt="accessibility text">
