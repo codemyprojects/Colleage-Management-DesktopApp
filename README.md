@@ -20,6 +20,7 @@ SQL Server Management Studio 2008
  Microsoft Visual Studio 2013
 
 <h3>Screenshots</h3>
+https://github.com/indra-codemyprojects/SchoolManagementSystem/issues/1#issue-925846048
 ![user](https://user-images.githubusercontent.com/32549365/122712074-4a691b00-d29e-11eb-86dc-f1f57f309c6a.jpg)
 ![masterpage](https://user-images.githubusercontent.com/32549365/122712085-4f2dcf00-d29e-11eb-9569-f0bc15b22b81.jpg)
 ![student](https://user-images.githubusercontent.com/32549365/122712091-52c15600-d29e-11eb-8f99-9c590fc522e4.jpg)
