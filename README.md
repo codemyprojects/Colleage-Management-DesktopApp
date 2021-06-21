@@ -20,6 +20,10 @@ SQL Server Management Studio 2008
  Microsoft Visual Studio 2013
 
 <h3>Screenshots</h3>
+<p align="center">
+  <img src="https://github.com/indra-codemyprojects/SchoolManagementSystem/user-images" width="350" title="hover text">
+  <img src="your_relative_path_here_number_2_large_name" width="350" alt="accessibility text">
+</p>
 https://github.com/github/{repository}/user-images.png
 <img src=![keypro](https://user-images.githubusercontent.com/32549365/122665902-1978df80-d1e5-11eb-8bfa-1c29c26bf1e3.jpg) </img>
 ![login](https://user-images.githubusercontent.com/32549365/122665906-1f6ec080-d1e5-11eb-9489-f290010281db.jpg)
