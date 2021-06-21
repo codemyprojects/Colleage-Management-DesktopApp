@@ -21,8 +21,8 @@ SQL Server Management Studio 2008
 
 <h3>Screenshots</h3>
 <p align="center">
-  <img src="https://github.com/indra-codemyprojects/SchoolManagementSystem/user-images" width="350" title="hover text">
-  <img src="your_relative_path_here_number_2_large_name" width="350" alt="accessibility text">
+  <img src="https://github.com/indra-codemyprojects/SchoolManagementSystem/login.jpg" width="350" title="hover text">
+  <img src="https://github.com/indra-codemyprojects/SchoolManagementSystem/masterpage.jpg" width="350" alt="accessibility text">
 </p>
 https://github.com/github/{repository}/user-images.png
 <img src=![keypro](https://user-images.githubusercontent.com/32549365/122665902-1978df80-d1e5-11eb-8bfa-1c29c26bf1e3.jpg) </img>
