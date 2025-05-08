@@ -34,5 +34,6 @@ SMS.Net.DataBaseLayer/: Handles database interactions and data access operations
 SMS.Net.Common/: Includes common utilities and helper classes used across the application.
 
 SMS.Net/: The main project directory containing the user interface and application entry point.
-<h3>Screenshots</h3>
+<h3>Screenshots https://github.com/indra-codemyprojects/SchoolManagementSystem/issues/1#issue-925846048
+</h3>
 https://github.com/indra-codemyprojects/SchoolManagementSystem/issues/1#issue-925846048
