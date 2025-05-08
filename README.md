@@ -35,6 +35,5 @@ SMS.Net.Common/: Includes common utilities and helper classes used across the ap
 
 SMS.Net/: The main project directory containing the user interface and application entry point.
 <h3>Screenshots https://github.com/indra-codemyprojects/SchoolManagementSystem/issues/1#issue-925846048
-  1#issue-925846048
 </h3>
 
